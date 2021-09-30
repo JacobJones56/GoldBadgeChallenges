@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneCafe", "ChallengeOneCafe.csproj", "{E83BBD98-E11F-4F65-BC26-BFBE825FF125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuClass", "MenuClass\MenuClass.csproj", "{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuRepo", "MenuRepo\MenuRepo.csproj", "{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83BBD98-E11F-4F65-BC26-BFBE825FF125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83BBD98-E11F-4F65-BC26-BFBE825FF125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83BBD98-E11F-4F65-BC26-BFBE825FF125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83BBD98-E11F-4F65-BC26-BFBE825FF125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14814A0E-BCAE-42AE-A340-29A1B9FA2A2B}
+	EndGlobalSection
+EndGlobal

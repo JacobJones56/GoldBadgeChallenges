@@ -7,14 +7,20 @@ using System.Threading.Tasks;
 
 namespace MenuRepo
 {
-    public class MenuRepoMethods
+    public class MenuRepository
     {
         private List<Menu> _listOfMenuOptions = new List<Menu>();
 
         // Create
-        public void CreateNewMenuOption(Menu option)
+        public bool CreateNewMenuOption(Menu option)
         {
+            if(option is null)
+            {
+                return false;
+            }
+
             _listOfMenuOptions.Add(option);
+            return true;
         }
         // Read
         public List<Menu> MenuList()

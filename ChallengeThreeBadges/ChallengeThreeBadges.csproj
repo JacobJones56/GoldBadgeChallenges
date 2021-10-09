@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E83BBD98-E11F-4F65-BC26-BFBE825FF125}</ProjectGuid>
+    <ProjectGuid>{A02CBD0D-AAFA-42C9-8325-C60C26A34D13}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GoldBadgeChallenges</RootNamespace>
-    <AssemblyName>GoldBadgeChallenges</AssemblyName>
+    <RootNamespace>ChallengeThreeBadges</RootNamespace>
+    <AssemblyName>ChallengeThreeBadges</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,16 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="MenuClass\MenuClass.csproj">
-      <Project>{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}</Project>
-      <Name>MenuClass</Name>
-    </ProjectReference>
-    <ProjectReference Include="MenuRepo\MenuRepo.csproj">
-      <Project>{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}</Project>
-      <Name>MenuRepo</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

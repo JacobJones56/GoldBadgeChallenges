@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E83BBD98-E11F-4F65-BC26-BFBE825FF125}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>GoldBadgeChallenges</RootNamespace>
-    <AssemblyName>GoldBadgeChallenges</AssemblyName>
+    <ProjectGuid>{1ECD47F7-A5ED-48B3-86C1-0B5891E01AFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClaimsRepositroy</RootNamespace>
+    <AssemblyName>ClaimsRepositroy</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="ProgramUI.cs" />
+    <Compile Include="ClaimsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="MenuClass\MenuClass.csproj">
-      <Project>{14E16CFE-CF63-4F8F-B9A3-6F0DB79D3C26}</Project>
-      <Name>MenuClass</Name>
-    </ProjectReference>
-    <ProjectReference Include="MenuRepo\MenuRepo.csproj">
-      <Project>{EB62DCD1-C610-4589-B45C-8D7D8B549DE0}</Project>
-      <Name>MenuRepo</Name>
+    <ProjectReference Include="..\ClaimsClass\ClaimsClass.csproj">
+      <Project>{FBD3C818-CC0B-4F73-BFFA-62316797A7CC}</Project>
+      <Name>ClaimsClass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

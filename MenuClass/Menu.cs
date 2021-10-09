@@ -12,11 +12,11 @@ namespace MenuClass
         public int FoodNumber { get; set; }
         public int FoodId { get; set; }
         public string FoodInfo { get; set; }
-        public string FoodPrice { get; set; }
+        public decimal FoodPrice { get; set; }
 
         public Menu() { }
 
-        public Menu(string foodName, int foodNumber, int foodId, string foodInfo, string foodPrice)
+        public Menu(string foodName, int foodNumber, int foodId, string foodInfo, decimal foodPrice)
         {
             FoodName = foodName;
             FoodNumber = foodNumber;

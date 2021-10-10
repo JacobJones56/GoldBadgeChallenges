@@ -93,7 +93,6 @@ namespace ChallengeTwoClaims
             // Date of the accident
             Console.WriteLine("Please enter the date of the accident (00/00/00)");
             newClaim.DateOfAccident = DateTime.Parse(Console.ReadLine());
-           
             
             // Date of claim
             Console.WriteLine("Please enter the date of the claim (00/00/00)");
@@ -155,7 +154,7 @@ namespace ChallengeTwoClaims
             Console.WriteLine($"Claim is valid {currentClaim.IsVaild}");
             Console.WriteLine("_______________________________________");
 
-            Console.WriteLine("To process this claim press y otherwise any other key to exit to main menu");
+            Console.WriteLine("To process this claim press y otherwise press enter to exit to main menu");
             ConsoleKeyInfo info = Console.ReadKey();
             if (info.Key == ConsoleKey.Enter)
             {
